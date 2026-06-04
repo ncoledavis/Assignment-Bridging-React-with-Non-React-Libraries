@@ -1,7 +1,7 @@
 # Dynamic Poll Dashboard
 
 A React application that integrates the raw, non-React **Chart.js** library into the React lifecycle using `useEffect` as an escape hatch. Users vote for their favorite JavaScript framework and a bar chart updates in real-time.
-
+https://youtu.be/Y3SPGVRbCoE
 ## Assignment Tasks
 
 ### 1. Build a Dynamic Poll Dashboard
@@ -29,7 +29,7 @@ A React application that integrates the raw, non-React **Chart.js** library into
 
 ### 5. Code Comment Verification
 
-- A comment is placed directly above the cleanup `return` block explaining why running `new Chart()` on every state render without destroying the old instance causes canvas rendering errors (overlapping bindings, corrupted draw calls, and "Canvas is already in use" errors)
+- A comment is placed directly above the cleanup `return` block explaining why running `new Chart()` on every state render without destroying the old instance causes canvas rendering errors
 
 ### 6. Visual Polish
 
